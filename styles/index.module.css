@@ -1,0 +1,33 @@
+/* index.module.css */
+.navbar {
+    display: flex;/*что это */
+    justify-content: space-between;/*что это */
+    align-items: center; /* Выравнивание элементов по вертикали */
+    padding: 10px 20px; /* Отступы сверху/снизу 10px, слева/справа 20px */
+    background-color: #f0f0f0; /* Цвет фона */
+    border-bottom: 1px solid #ddd; /* Нижняя граница */
+  }
+  
+  .logo-image { /* Стили для изображения логотипа */
+    max-height: 40px; /* Максимальная высота логотипа */
+  }
+  
+  
+  .nav-links { /* Стили для списка ссылок */
+    list-style: none; /* Убираем маркеры списка */
+    margin: 0;/*что это */
+    padding: 0;/*что это */
+    display: flex; /* Располагаем ссылки горизонтально */
+    gap: 20px; /* Расстояние между ссылками */
+  }
+  
+  .link {
+    text-decoration: none;/*что это */
+    color: #333; /* Темно-серый цвет текста */
+    font-weight: 500; /* Полужирный текст */
+    transition: color 0.3s ease; /* Плавное изменение цвета при наведении */
+  }
+  
+  .link:hover { /* Стили при наведении на ссылку */
+    color: #007bff; /* Синий цвет при наведении */
+  }
